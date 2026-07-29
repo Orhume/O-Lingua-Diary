@@ -1,0 +1,6 @@
+{
+  "name": "O'Lingua Diary",
+  "description": "A personal language-learning diary app that transforms your daily thoughts into interactive lessons with pronunciation, vocabulary, grammar, and pathway reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
