@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# O’Lingua Diary
 
-# Run and deploy your AI Studio app
+An early experimental prototype exploring a language-learning diary experience.
 
-This contains everything you need to run your app locally.
+The concept combines personal diary writing with language-learning support, including vocabulary, grammar, pronunciation practice, review activities and a personalised learning pathway.
 
-View your app in AI Studio: https://ai.studio/apps/496c45d9-3bf1-4587-a91e-d3e2f9f663ec
+## Project status
 
-## Run Locally
+This repository contains an experimental build that I explored but did not continue developing. It is shared as a record of an earlier product experiment, not as a maintained or production-ready application.
 
-**Prerequisites:**  Node.js
+## Technology
 
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Google Gemini API integration
+- Express
+
+## Run locally
+
+Prerequisites: Node.js.
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+   ```bash
+   npm install
+   ```
+
+2. Configure the Gemini API key in your local environment as required by the server configuration. Do not commit API keys or other secrets.
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## What I explored
+
+- A daily language-learning dashboard
+- Diary writing and learning activities
+- Vocabulary and grammar reference views
+- Pronunciation practice and review
+- Personalised learning pathways
+
+This project is retained as an archived learning experiment. Features and setup may require updates before the application can be run successfully.
+
+---
+
+Created by [@Orhume](https://github.com/Orhume).
